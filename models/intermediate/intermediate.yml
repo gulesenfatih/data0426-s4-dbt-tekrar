@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: cc_parcel
+    description: extra information about parcel
+    columns:
+      - name: parcel_id
+        description: id of the parcel
+        tests:
+          - not_null
+          - unique
